@@ -1,6 +1,6 @@
 # Adinkra Symbol Quiz App
 
-## Vist Here[Adinkra Symbol App](https://romantic-poitras-728f6d.netlify.app/app)
+## Vist Here [Adinkra Symbol App](https://romantic-poitras-728f6d.netlify.app/app)
 
 A quiz app based on Ghanaian local symbols whiles learning ReactJs
 
