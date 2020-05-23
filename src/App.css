@@ -1,0 +1,19 @@
+body{
+  padding: 0;
+  margin : 0;
+background: rgb(182,182,182);
+background: linear-gradient(90deg, rgba(182,182,182,1) 0%, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("./symbols/Main.png");
+  width: 100%;
+}
+
+.tropy{
+width: 8em;
+}
+
+.score, .result{
+  margin-top: 10em;
+}
+
+.bg{
+  background-color: rgba(141, 145, 145, 0.952);
+}
