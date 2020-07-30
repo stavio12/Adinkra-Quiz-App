@@ -1,6 +1,7 @@
 # Adinkra Symbol Quiz App
 
 ## Vist Here [Adinkra Quiz Symbol App](https://adinkra-quiz.netlify.app/)
+## Vist Here [Adinkra Quiz Symbol App](https://adinkra-quiz.netlify.app)
 
 A quiz app based on Ghanaian local symbols whiles learning ReactJs
 
