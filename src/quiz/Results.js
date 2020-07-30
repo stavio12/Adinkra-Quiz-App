@@ -44,8 +44,13 @@ export default class Result extends Component {
             </h4>
 
             <h2 className="btn ">
-              <a className="btn-success btn-lg" href="/app">
+              <a className="btn-success btn-lg" href="/game">
                 Take Again
+              </a>
+            </h2>
+            <h2 className="btn ">
+              <a className="btn-success btn-lg" href="/">
+                Home{" "}
               </a>
             </h2>
           </div>

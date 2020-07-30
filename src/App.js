@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Qlist from "./quiz/Qlist";
 import Score from "./quiz/Score";
 import Results from "./quiz/Results";
-// import Home from  './quiz/Home';
+import Home from "./quiz/Home";
 
 export default class App extends Component {
   constructor(props) {
@@ -306,9 +307,16 @@ export default class App extends Component {
 
     return (
       <div>
-        {scorebox}
-        <Qlist {...this.state} setCurrent={this.setCurrent.bind(this)} setScore={this.setScore.bind(this)} />
-        {results}
+        <Router>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/game" exact>
+            {scorebox}
+            <Qlist {...this.state} setCurrent={this.setCurrent.bind(this)} setScore={this.setScore.bind(this)} />
+            {results}
+          </Route>{" "}
+        </Router>
       </div>
     );
   }
